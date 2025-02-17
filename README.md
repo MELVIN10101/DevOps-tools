@@ -46,7 +46,7 @@ sudo systemctl restart docker
 sudo chmod 777 /var/run/docker.sock
 ```
 
-# TRIVYsudo apt update
+# TRIVY
 ```bash
 sudo apt update
 sudo apt install -y wget apt-transport-https gnupg lsb-release
