@@ -1,10 +1,11 @@
 # DevOps-TOOLS-INSTALLATION SCRIPTS
 
 # JAVA INSTALLATION
+'''sh
 sudo apt install openkdk-17-jre -y
 sudo apt install openkdk-17-jdk -y
 java --version
-
+'''
 # TERRAFORM INSTALLATION
 wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
